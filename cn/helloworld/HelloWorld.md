@@ -3,7 +3,7 @@
 
 ## Launcher 创建游戏
 
-默认开发者已经安装了 Egretlauncher 工具，打开 Egretlauncher，点击项目 > 创建项目，勾选 Egretia SDK 模块，创建项目后，Egretia SDK 库会自动添加到游戏项目中，如图：
+默认开发者已经安装了 Egretlauncher 工具，打开 Egretlauncher，点击项目 > 创建项目，勾选 Egretia SDK 模块，创建项目后，Egretia SDK 库会自动添加到游戏项目中，如图： 
 
 ![img](./e01.jpg)
 
