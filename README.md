@@ -8,7 +8,7 @@ Egretia combines existing HTML5 technologies and product tools to create a compl
 
 For developers who are new to the blockchain, we have prepared several introductory documents.
 
-* [FAQ](faq/faq.md)
+* [FAQ](en/faq/faq.md)
 * [Blockchain white paper、book、exchange、token、self-media](https://github.com/dily3825002/awesome-blockchain)
 * [Web3.js、Solidity、Truffle tutorials and ETH develop](https://github.com/dily3825002/awesome-ethereum-cn)
 
@@ -33,7 +33,7 @@ SmartIDE and Web Wallet are in the cloud and can be used directly. We will push 
 
 By convention, there is a `Hello World` before the detailed documentation begins. The first game example is mainly for developers to have an overall concept for blockchain game development. For details, please refer to the follow-up content.
 
-* [Hello World](en/helloWorld/helloworld.md)
+* [Hello World](en/helloworld/helloworld.md)
 
 ## Egretia Server
 
