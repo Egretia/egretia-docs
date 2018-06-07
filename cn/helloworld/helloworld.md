@@ -32,9 +32,15 @@
 
 ## Web Wallet 钱包调试 Dapp
 
-在 Egretia SDK 中已经嵌入了 Web Wallet 钱包，用于调试开发。
+Web Wallet 是 Egretia 团队提供给开发者的网页端钱包。区块链游戏开发和传统游戏开发另一个非常大的区别在于，区块链游戏需要经常和区块链进行交互，所以会频繁的和钱包打交道。虽然市面上有 Metamask 等第三方钱包，但是对于区块链游戏开发不是非常方便，所以 Egretia 团队开发了本地调试钱包 Web Wallet。在区块链游戏的开发过程中，Web Wallet 是嵌入到游戏中的，这样调试游戏的时候就可以方便的使用。
 
-![img](./e06.jpg)
+只需要在 index.html 中添加下面一句话即可使用：
+
+    <script type="text/javascript" src="//developer.egret.com/egretia/webwallet.js" id="webwallet"></script>  
+
+如下图所示：
+
+![img](./e06.png)
 
 成功引入后运行界面：
 
@@ -42,10 +48,12 @@
 
 ## 发布 Dapp
 
-打开 Egretlauncher 点击发布设置，
+打开 Egretlauncher 点击发布设置。
 
 ![img](./e08.jpg)
 
 弹出发布选项，选择 Blockchin Game，点击发布，会发布到 `bin-release` 目录下
 
 ![img](./e09.png)
+
+> 如果不需要钱包需要在 index.html 中将钱包引入代码注释掉。

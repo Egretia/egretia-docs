@@ -33,7 +33,13 @@ During the development process,if we directly use blockchain's test,the network 
 
 ## Web Wallet debug Dapp
   
-Embedded Web Wallet Wallet in Egretia SDK.
+Web Wallet is a web-side wallet provided to developers by Egretia team.The different between blockchain's game development and troditional game development is  that blockchain games need to interact with the blockchain often, so they often deal with wallets. Although third-party wallets such as Metamask are available on the market, it is not very convenient for Egretia workflows, so the Egretia team developed the local debug wallet Web Wallet.
+
+Just add the following sentence in index.html to use:Just add the following sentence in index.html to use:
+
+    <script type="text/javascript" src="//developer.egret.com/egretia/webwallet.js" id="webwallet"></script>  
+
+As shown picture below：
 
 ![img](./e06.jpg)
 
@@ -50,3 +56,5 @@ click publish settings.
 Pop-up publishing options, select Blockchin Game, click publish, will be released to `bin-release` directory.
 
 ![img](./e09.png)
+
+> do not need a wallet, you need to comment out the wallet introduction code in index.html.
