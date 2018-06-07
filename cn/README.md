@@ -45,7 +45,7 @@ Egretia Server 是以太坊开发的本地节点服务器，您可以使用它�
 
 ## SmartIDE
 
-开发区块链游戏避不开智能合约的开发，SmartIDE 是一款功能强大的开源工具，可以让您直接在云端编写 Solidity 合约。
+开发区块链游戏避不开智能合约的开发，SmartIDE 是一款功能强大的智能合约开发工具，可以让您直接在云端编写 Solidity 合约。
 
 * [SmartIDE 简介](smartide/introduction.md)
 * [资源管理器](smartide/document.md)

@@ -46,7 +46,7 @@ Egretia Server is Eehereum development local node server,you can use it deploy s
 
 ## SmartIDE
 
-Developing blockchain games is inescapable in the development of smart contracts. SmartIDE is a powerful open source tool that allows you to write Solidity contracts directly in the Cloud-end.
+Developing blockchain games is inescapable in the development of smart contracts. SmartIDE is a powerful tool that allows you to write Solidity contracts directly in the Cloud-end.
 
 * [SmartIDE brief introduction](smartide/introduction.md)
 * [Document Manager](smartide/document.md)

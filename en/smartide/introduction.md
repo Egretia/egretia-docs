@@ -1,6 +1,6 @@
 # SmartIDE brief introduction
 
-Developing blockchain games is inescapable in the development of smart contracts. SmartIDE is a powerful open source tool that allows you to write Solidity contracts directly in the cloud.
+Developing blockchain games is inescapable in the development of smart contracts. SmartIDE is a powerful tool that allows you to write Solidity contracts directly in the cloud.
 
 ## **Usage platform**
 
