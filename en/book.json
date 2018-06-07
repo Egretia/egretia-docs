@@ -1,0 +1,18 @@
+{
+    "title" : "Egretia Document",
+    "description" : "Egretia Document",
+    "author" : "Egretia Team",
+    "generator": "site",
+    "gitbook" : "2.6.4",
+   "plugins": [
+        "tbfed-pagefooter",
+        "back-to-top-button@0.1.0"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy egretia.io 2018",
+            "modify_label": "The document revision time:",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}

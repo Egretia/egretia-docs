@@ -1,5 +1,3 @@
-[EN](en/README.md) / [CN](cn/README.md)
-
 # Egretia document
 
 Egretia combines existing HTML5 technologies and product tools to create a complete blockchain game development tool set. With Egretia's toolset, developers can create blockchain games quickly and easily without pay attention to complex underlying technology implementations, and through the blockchain, they can open up the flow of virtual assets between games.
