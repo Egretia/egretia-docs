@@ -76,5 +76,6 @@ The above content introduces related tools of Egretia, but still need to master 
 
 If you have any questions, please visit the Egret Forum or Egretia Github to communicate and ask questions.
 
-* [Egret forum](http://bbs.egret.com)
-* [Egretia Github](https://github.com/egretia)
+* [Egretia Official Website](http://egretia.io)
+* [Egretia Official Blog Website](http://blog.egretia.io)
+* [Egretia Telegram Group](http://t.me/egretia_en)

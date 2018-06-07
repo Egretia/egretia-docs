@@ -75,5 +75,6 @@ Egretia Server 是以太坊开发的本地节点服务器，您可以使用它�
 
 遇到任何问题请访问访问 Egret 论坛或者 Egretia Github 进行交流、提问。
 
-* [Egret 论坛](http://bbs.egret.com)
-* [Egretia Github](https://github.com/egretia)
+* [Egretia 官方网站](http://egretia.io)
+* [Egretia 官方博客](http://blog.egretia.io)
+* [Egretia 中文电报群](http://t.me/egretia_cn)
