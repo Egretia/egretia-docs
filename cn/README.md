@@ -30,7 +30,7 @@ SmartIDE 和 Web Wallet 是云端的，可以直接使用，后续有详细教�
 
 按照惯例，在详细文档开始之前有一个`Hello World`，第一个游戏示例主要是为了让开发者对于区块链游戏开发有个整体的概念，详细内容请参考后续内容。
 
-* [Hello World](helloWorld/helloworld.md)
+* [Hello World](helloworld/helloworld.md)
 
 ## Egretia Server
 

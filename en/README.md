@@ -31,7 +31,7 @@ SmartIDE and Web Wallet are in the cloud and can be used directly. We will push 
 
 By convention, there is a `Hello World` before the detailed documentation begins. The first game example is mainly for developers to have an overall concept for blockchain game development. For details, please refer to the follow-up content.
 
-* [Hello World](helloWorld/helloworld.md)
+* [Hello World](helloworld/helloworld.md)
 
 ## Egretia Server
 
