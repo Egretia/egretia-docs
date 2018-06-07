@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Egretia 文档](README.md)
+* [Egretia Document](README.md)
 * [FAQ](faq/faq.md)
 * [Construction of development environment](install/install.md)
 * [Hello World](helloworld/helloworld.md)

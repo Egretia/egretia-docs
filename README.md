@@ -9,8 +9,6 @@ Egretia combines existing HTML5 technologies and product tools to create a compl
 For developers who are new to the blockchain, we have prepared several introductory documents.
 
 * [FAQ](en/faq/faq.md)
-* [Blockchain white paper、book、exchange、token、self-media](https://github.com/dily3825002/awesome-blockchain)
-* [Web3.js、Solidity、Truffle tutorials and ETH develop](https://github.com/dily3825002/awesome-ethereum-cn)
 
 ## Construction of development environment
 
@@ -70,9 +68,9 @@ The different between blockchain's game development and troditional game develop
 
 The above content introduces related tools of Egretia, but still need to master the related knowledge of Egret Engine completely, so as to concentrate more on learning blockchain game development.
 
-* [Egret Engine document](http://developer.egret.com/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
-* [Egret Wing document](http://developer.egret.com/cn/github/egret-docs/Wing/introduction/index.html)
-* [Egret Extension library](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
+* [Egret Engine document](http://developer.egret.com/en/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
+* [Egret Wing document](http://developer.egret.com/en/github/egret-docs/Wing/introduction/index.html)
+* [Egret Extension library](http://developer.egret.com/en/github/egret-docs/extension/threes/instructions/index.html)
 
 ## Technical support
 
