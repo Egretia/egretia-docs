@@ -41,7 +41,7 @@ Just add the following sentence in index.html to use:Just add the following sent
 
 As shown picture below：
 
-![img](./e06.jpg)
+![img](./e06.png)
 
 After lead into successful running interface:
 
