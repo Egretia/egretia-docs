@@ -1,0 +1,27 @@
+{
+  "name": "egretia-docs",
+  "version": "1.0.0",
+  "description": "Egretia Document ",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build && gitbook build",
+    "preview": "gitbook server && gulp preview",
+    "publish": "npm run build && gulp publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egretia/egretia-docs.git"
+  },
+  "keywords": [
+    "Egretia Document"
+  ],
+  "author": "Egretia Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egretia/egretia-docs/issues"
+  },
+  "homepage": "https://github.com/Egretia/egretia-docs#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

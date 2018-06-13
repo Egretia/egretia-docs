@@ -1,0 +1,17 @@
+{
+  "language" : "zh-hans",
+  "plugins": [
+    "tbfed-pagefooter",
+    "back-to-top-button@0.1.0"
+  ],
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy egretia.io 2018",
+      "modify_label": "The document revision time:",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
