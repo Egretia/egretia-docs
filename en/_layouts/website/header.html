@@ -76,56 +76,40 @@
     .egret-dev-navbar ul li img {
         margin-top: 3px;
     }
+    .egret-dev-navbar  ul li ul li{
+        min-width: 80px;
+    }
 </style>
 <div class="egret-dev-navbar " id="egret-navbar">
     <ul class=" ">
         <li>
-            <a href="www.egret.com">Egretia</a>
+            <a target="_blank" href="http://egretia.io">Egretia</a>
+        </li>
+        <li onmouseover="overFun(this)" onmouseout="outFun(this)">
+            <a target="_blank" href="">Egretia SDK</a>
+            <ul class="" style="display: none;">
+                <li>
+                    <a target="_blank" href="https://github.com/ethereum/wiki/wiki/JavaScript-API#getting-started">Web3.js Docs</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/ethereum/wiki/wiki/JavaScript-API#web3js-api-reference">API Docs</a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a href="">A</a>
+            <a target="_blank" href="https://solidity.readthedocs.io/en/latest/">Solidity Docs</a>
         </li>
-        <li onmouseover="func(this)" onmouseout="func1(this)">
-            <a href="">B</a>
-            <ul class="" style="display: none;">
-                <li>
-                    <a href="#">手册文档</a>
-                </li>
-                <li>
-                    <a href="#">API参考</a>
-                </li>
-            </ul>
-        </li>
-        <li onmouseover="func(this)" onmouseout="func1(this)">
-            <a href="">C</a>
-            <ul class="" style="display: none;">
-                <li>
-                    <a href="#">手册文档</a>
-                </li>
-                <li>
-                    <a href="#">API参考</a>
-                </li>
-            </ul>
-        </li>
-        <li onmouseover="func(this)" onmouseout="func1(this)">
-            <a href="">D</a>
-            <ul class="" style="display: none;">
-                <li>
-                    <a href="#">手册文档</a>
-                </li>
-                <li>
-                    <a href="#">API参考</a>
-                </li>
-            </ul>
+        <li>
+            <a href="../zh">中文</a>
         </li>
     </ul>
 </div>
 
 <script> 
-    function func(e) {
+    function overFun(e) {
         e.children[1].style.display = 'block';
     }
-    function func1(e) {
+    function outFun(e) {
         e.children[1].style.display = 'none';
     }
 </script>
