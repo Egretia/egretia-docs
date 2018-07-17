@@ -3,7 +3,7 @@
 <div class="egret-dev-navbar " id="egret-navbar" role="navigation">
     <ul class=" ">
         <li>
-            <a class="logo" style="display: inline-block" target="_blank" href="http://egretia.io"><img src="../share/images/egretia-logo.png" alt=""></a>
+            <a class="logo" style="display: inline-block" target="_blank" href="http://egretia.io"><img src="../../share/images/egretia-logo.png" alt=""></a>
         </li>
         <li onmouseover="overFun(this)" onmouseout="outFun(this)">
             <a href="javascript:;">Egretia SDK</a>
@@ -24,15 +24,16 @@
         </li>
     </ul>
 </div>
-<div class="book-header" role="navigation">
-    {% if glossary.path %}
-    <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn pull-left" aria-label="{{ " GLOSSARY_OPEN "|t }}"><i class="fa fa-sort-alpha-asc"></i></a> {% endif %}
+
+<!-- <div class="book-header" role="navigation"> -->
+    <!-- {% if glossary.path %} -->
+    <!-- <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn pull-left" aria-label="{{ " GLOSSARY_OPEN "|t }}"><i class="fa fa-sort-alpha-asc"></i></a> {% endif %} -->
     <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="{{ " / "|resolveFile }}">{{ page.title }}</a>
-    </h1>
-</div>
+    <!-- <h1> -->
+        <!-- <i class="fa fa-circle-o-notch fa-spin"></i> -->
+        <!-- <a href="{{ " / "|resolveFile }}">{{ page.title }}</a> -->
+    <!-- </h1> -->
+<!-- </div> -->
 {{ super() }}
 {% endblock %}
 
