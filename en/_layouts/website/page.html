@@ -1,0 +1,23 @@
+{% extends template.self %} {% block book_sidebar %}
+<nav role="navigation" class="autoshow">
+    <ul class="summary">
+        <li>
+            <a href="../zh">中文</a>
+        </li>
+        <li>
+            <a href="javascript:;">Egretia SDK</a>
+            <ul class="">
+                <li>
+                    <a target="_blank" href="https://github.com/ethereum/wiki/wiki/JavaScript-API#getting-started">Web3.js Docs</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/ethereum/wiki/wiki/JavaScript-API#web3js-api-reference">API Docs</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a target="_blank" href="https://solidity.readthedocs.io/en/latest/">Solidity Docs</a>
+        </li>
+    </ul>
+</nav>
+{{ super() }} {% endblock %}

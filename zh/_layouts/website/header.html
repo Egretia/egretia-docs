@@ -1,92 +1,12 @@
-<style>
-    body {
-        margin: 0;
-        overflow-x: hidden;
-    }
-
-    .egret-dev-navbar {
-        overflow: visible;
-        height: 51px;
-        line-height: 51px;
-        padding: 0px 8px;
-        z-index: 2;
-        font-size: 0.85em;
-        color: #7e888b;
-        background: #f5f5f5;
-        display: flex;
-        max-height: 340px;
-        position: relative;
-        top: 0;
-        left: 0px;
-    }
-
-    .egret-dev-navbar a,
-    .egret-dev-navbar a:hover {
-        color: inherit;
-        text-decoration: none;
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .egret-dev-navbar a:hover {
-        color: rgba(0, 0, 0, 0.8);
-    }
-
-    .egret-dev-navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        background: #f5f5f5;
-    }
-
-    .egret-dev-navbar ul li {
-        margin-right: 1px;
-        position: relative;
-        float: left;
-        margin: 0 20px;
-        /* padding: 0 20px; */
-        min-width: 60px;
-        text-align: center;
-        /* width: 20%; */
-        /*padding:0 20px;*/
-    }
-
-    .egret-dev-navbar ul li a {
-        padding: 0;
-    }
-
-    .egret-dev-navbar ul li a:hover {
-        color: rgba(0, 0, 0, 0.8);
-        padding: 0;
-    }
-
-    .egret-dev-navbar .btn {
-        display: inline-block;
-        height: 40px;
-        padding: 0px 15px;
-        border-bottom: none;
-        color: #aaa;
-        text-transform: none;
-        line-height: 40px;
-        position: relative;
-        font-size: 14px;
-    }
-
-    .egret-dev-navbar ul li img {
-        margin-top: 3px;
-    }
-    .egret-dev-navbar  ul li ul li{
-        min-width: 80px;
-    }
-</style>
-<div class="egret-dev-navbar " id="egret-navbar">
+{% extends template.self %} 
+{% block book_header %}
+<div class="egret-dev-navbar " id="egret-navbar" role="navigation">
     <ul class=" ">
         <li>
-            <a target="_blank" href="http://egretia.io">Egretia 官网</a>
+            <a class="logo" style="display: inline-block" target="_blank" href="http://egretia.io"><img src="../share/images/egretia-logo.png" alt=""></a>
         </li>
         <li onmouseover="overFun(this)" onmouseout="outFun(this)">
-            <a target="_blank" href="">Egretia SDK</a>
+            <a href="javascript:;">Egretia SDK</a>
             <ul class="" style="display: none;">
                 <li>
                     <a target="_blank" href="http://web3.tryblockchain.org/web3-js-in-action.html">Web3.js 文档</a>
@@ -100,16 +20,31 @@
             <a target="_blank" href="http://www.tryblockchain.org/Solidity-%E8%AF%AD%E8%A8%80%E4%BB%8B%E7%BB%8D.html">Solidity 文档</a>
         </li>
         <li>
-            <a href="../en">English</a>
+            <a href="/en">English</a>
         </li>
     </ul>
 </div>
+<div class="book-header" role="navigation">
+    {% if glossary.path %}
+    <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn pull-left" aria-label="{{ " GLOSSARY_OPEN "|t }}"><i class="fa fa-sort-alpha-asc"></i></a> {% endif %}
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="{{ " / "|resolveFile }}">{{ page.title }}</a>
+    </h1>
+</div>
+{{ super() }}
+{% endblock %}
 
-<script> 
-    function overFun(e) {
-        e.children[1].style.display = 'block';
-    }
-    function outFun(e) {
-        e.children[1].style.display = 'none';
-    }
-</script>
+{% block javascript %}
+    {{ super() }}
+    <script type="text/javascript">
+        function overFun(e) {
+            e.children[1].style.display = 'block';
+        }
+    
+        function outFun(e) {
+            e.children[1].style.display = 'none';
+        }
+    </script>
+{% endblock %}

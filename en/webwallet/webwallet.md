@@ -8,7 +8,7 @@ During the development process of blockchain games, Web Wallet is embedded into 
 
 Web Wallet login is currently divided into two steps. The first step is to use Egretia Server mnemonics. The second step is to use password to log in.
 
-![](../egretiaserver/pic1.png)
+![](../egretiaserver/pic1-1.png)
 
 Open Egretia Server，get mnemonics.
 
