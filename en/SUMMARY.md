@@ -27,9 +27,9 @@
 * [Analysis](smartide/analysis.md)
 * [Debug](smartide/debug.md)
 
-## Web Wallet User's guide
+## EgretiaWallet User's guide
 
-* [Web Wallet Operation Manual](webwallet/webwallet.md)
+* [EgretiaWallet Operation Manual](webwallet/webwallet.md)
 
 ## Egret workflow brief introduction
 

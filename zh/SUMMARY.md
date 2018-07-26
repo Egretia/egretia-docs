@@ -26,9 +26,9 @@
 * [分析](smartide/analysis.md)
 * [调试](smartide/debug.md)
 
-## Web Wallet 使用手册
+## EgretiaWallet 使用手册
 
-* [Web Wallet 操作手册](webwallet/webwallet.md)
+* [EgretiaWallet 操作手册](webwallet/webwallet.md)
 
 ## Egret 工作流简介
 
